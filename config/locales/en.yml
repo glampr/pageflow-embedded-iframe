@@ -1,0 +1,20 @@
+en:
+  activerecord:
+    attributes:
+      pageflow/page:
+        embedded_iframe_id: iFrame URL
+        full_width: Full width
+        iframe_caption: Caption
+  pageflow:
+    embedded_iframe:
+      help_entries:
+        page_type:
+          menu_item: Embedded iFrame
+          text: ! "# Embedded iFrame\n\n*Embeds any external URL into an iframe*\n    \nYou can use this page type to include any random URL that is not covered by any of the other specific pages types.\n\nExamples of application: your website, a custom infographic, etc..."
+      page_type_category_name: Links
+      page_type_description: Embed arbitrary URLs
+      page_type_name: Embedded iFrame
+    ui:
+      configuration_editor:
+        tabs:
+          topic: Contents
