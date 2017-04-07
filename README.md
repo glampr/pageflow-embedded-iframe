@@ -1,8 +1,6 @@
-# Pageflow Embedded Video
+# Pageflow Embedded iFrame
 
-[![Gem Version](https://badge.fury.io/rb/pageflow-embedded-iframe.svg)](http://badge.fury.io/rb/pageflow-embedded-iframe)
-
-Page type showing Youtube/Vimeo videos in an embedded iframe.
+Page type adding an embedded iframe with any arbitrary URL.
 
 ## Installation
 
@@ -37,9 +35,10 @@ Include javascript/stylesheets:
     # app/assets/stylesheets/pageflow/themes/default.css.scss
     @import "pageflow/embedded_iframe/themes/default";
 
+<!---
 ## Configuration
 
-Optionally, configure Pageflow Embedded Video by creating an initializer in your app
+Optionally, configure Pageflow Embedded iFrame by creating an initializer in your app
 `config/initializers/pageflow_embedded_iframe.rb`.
 
 Example:
@@ -49,18 +48,17 @@ Example:
       # The listed hosts are supported by default:
       # config.supported_hosts = %w(https://www.youtube.com http://www.youtube.com https://vimeo.com http://vimeo.com)
     end
+--->
 
 ## Troubleshooting
 
 If you run into problems while installing the page type, please also refer to the
 [Troubleshooting](https://github.com/codevise/pageflow/wiki/Troubleshooting) wiki
-page in the [Pageflow  repository](https://github.com/codevise/pageflow). If that
+page in the [Pageflow repository](https://github.com/codevise/pageflow). If that
 doesn't help, consider
 [filing an issue](https://github.com/codevise/pageflow-embedded-iframe/issues).
 
 
 ## Contributing Locales
 
-Edit the translations directly on the
-[pageflow-embedded-iframe](http://www.localeapp.com/projects/public?search=tf/pageflow-embedded-iframe)
-locale project.
+TBA
