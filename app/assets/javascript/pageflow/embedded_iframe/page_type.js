@@ -164,7 +164,7 @@ pageflow.pageType.register('embedded_iframe', _.extend({
       webkitallowfullscreen: true,
       mozallowfullscreen: true,
       allowfullscreen: true,
-      src: url.toString()
+      src: (url + '')
     });
 
     pageElement.find('.iframe_wrapper').prepend(iframe);
